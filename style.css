@@ -57,3 +57,74 @@ html{
     background-position:center;
     background-repeat: no-repeat;
 }
+
+.caracteristicas{
+    width: 100vw;
+    height: 348px;
+    background-color: #1E1A13;
+    padding-top: 74px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caracteristicas h2{
+   font-size: 4rem;
+   font-weight: 200;
+   margin-bottom: 50px;
+}
+
+
+.caracteristicas .items-caracteristicas{
+    width: 100vw;
+    height: 226px;
+    padding-bottom: 74px;
+    text-align: center;
+}
+
+.items-caracteristicas div{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.items-caracteristicas .cont2{
+    margin-left: 200px;
+}
+.items-caracteristicas .cont3{
+    margin-left: 200px;
+}
+
+.items-caracteristicas .icono{
+    margin-bottom: 16px; 
+}
+
+.items-caracteristicas .ojo{
+    display: inline-block;
+    width: 57px;
+    height: 40px;
+    background-image: url(./assets/ojos.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.items-caracteristicas .mano{
+    display: inline-block;
+    width: 42px;
+    height: 40px;
+    background-image: url(./assets/dedos.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.items-caracteristicas .pincel{
+    display: inline-block;
+    width: 34px;
+    height: 37px;
+    background-image: url(./assets/ìncel.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
