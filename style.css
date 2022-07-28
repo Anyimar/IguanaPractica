@@ -104,9 +104,6 @@ html{
     width: 57px;
     height: 40px;
     background-image: url(./assets/ojos.png);
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat;
 }
 
 .items-caracteristicas .mano{
@@ -114,9 +111,6 @@ html{
     width: 42px;
     height: 40px;
     background-image: url(./assets/dedos.png);
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat;
 }
 
 .items-caracteristicas .pincel{
@@ -124,7 +118,53 @@ html{
     width: 34px;
     height: 37px;
     background-image: url(./assets/ìncel.png);
+}    
+.galeria-iguanas{
+    width: 100vw;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    padding: 73px;
+}
+
+.galeria-iguanas div{
+    width: 316px;
+    height: 202px;
+    margin-left: 16px;
+    background-color: blanchedalmond;
+}
+
+.galeria-iguanas .marco1{
+    background-image: url(./assets/iguana-2.jpg);
+}
+
+.galeria-iguanas .marco2{
+    background-image: url(./assets/iguana-3.jpg);
+}
+
+.galeria-iguanas .marco3{
+    background-image: url(./assets/iguana-4.jpg);
+}
+
+.ojo, .mano, .pincel, .marco1, .marco2, .marco3{
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
+} 
+
+.piedepagina{
+    width: 100vw;
+    height: 102px;
+    background-color: #1E1A13;
+    padding: 39px 299px;
+}
+
+.piedepagina .footer-tex{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.footer-tex a{
+    color: white;
+    text-decoration: none;
 }
