@@ -6,13 +6,54 @@
 
 html{
     font-size: 62.5%;
+    font-family: sans-serif;
     background-color: black;
+    color: white;
 }
 
 .header{
     width: 100vw;
     height: 73px;
+    padding: 7px;
     text-align: center;
-    color: white;
 
+}
+
+.header h1{
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.main-imagenPrincipal{
+    width: 100vw;
+    height: 727px;
+    background-image:url(./assets/bg-header.jpg) ;
+}
+
+.descripcion-iguanas{
+    width: 100vw;
+    height: 348px;
+    padding: 45px 0px 66px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.descripcion-iguanas div{
+    width: 399px;
+    height: 237px;
+    display: inline-block;
+    margin-left: 106px;
+}
+
+.descripcion-iguanas .main-descripcion{
+    padding-top: 30px;
+    font-size: 1.6rem;
+}
+
+.descripcion-iguanas .imagenDescripcion{
+    background-image: url(./assets/iguana-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
 }
